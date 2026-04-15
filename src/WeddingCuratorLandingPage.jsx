@@ -189,7 +189,7 @@ export default function WeddingCuratorLandingPage() {
               };
 
               try {
-                const res = await fetch("https://formspree.io/f/your-form-id", {
+                const res = await fetch("https://formspree.io/f/mlgadkqk", {
                   method: "POST",
                   headers: {
                     "Content-Type": "application/json",
