@@ -74,6 +74,16 @@ export default function WeddingCuratorLandingPage() {
             <p className="mt-4 text-base text-[#6d5544] leading-7 max-w-xl">
               The Wedding Curator is built for couples who want a calm, luxury experience — where every detail is handled, and your only role is to show up and experience your day. We believe in meeting properly, understanding your vision in person, and then coordinating everything with precision.
             </p>
+            <div className="mt-6">
+  <a
+    href="https://www.facebook.com/profile.php?id=61585919682642"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-[#c5a46d] text-white px-6 py-3 rounded-full text-sm tracking-wide hover:opacity-90 transition"
+  >
+    Start Your Wedding Planning
+  </a>
+</div>
 
             <p className="mt-4 text-base text-[#6d5544] leading-7 max-w-xl">
               This is not based on endless phone calls or back-and-forth video meetings. We prefer to meet in person, understand your expectations clearly, and build the execution around what you actually want.
