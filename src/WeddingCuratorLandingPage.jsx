@@ -262,7 +262,35 @@ export default function WeddingCuratorLandingPage() {
       >
         hello@theweddingcurator.ca
       </a>
+<div className="flex md:justify-end gap-5 mt-4">
 
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/theweddingcurator.ca"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#5e4b3c] hover:text-[#3e2f25] transition transform hover:scale-110"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+      <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+      <circle cx="12" cy="12" r="4"></circle>
+      <circle cx="17" cy="7" r="1.2"></circle>
+    </svg>
+  </a>
+
+  {/* Facebook */}
+  <a
+    href="https://www.facebook.com/yourpage"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#5e4b3c] hover:text-[#3e2f25] transition transform hover:scale-110"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+      <path d="M15 3h-2a4 4 0 0 0-4 4v2H7v3h2v9h3v-9h2.5l.5-3H12V7a1 1 0 0 1 1-1h2z"></path>
+    </svg>
+  </a>
+
+</div>
       <p className="text-xs text-[#b09a7c] mt-6">
         © {new Date().getFullYear()} The Wedding Curator
       </p>
