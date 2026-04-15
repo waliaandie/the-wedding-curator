@@ -231,71 +231,71 @@ export default function WeddingCuratorLandingPage() {
       {/* FOOTER */}
       
 {/* FOOTER */}
-{/* FOOTER */}
-<footer className="mt-10 border-t border-[#eadfce] bg-[#fbf6ef] py-8 px-6">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+<footer className="mt-24 pt-12 border-t border-[#eadfce] bg-[#fbf6ef]">
+  <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
-    <div className="text-left flex flex-col justify-center">
+    {/* LEFT SIDE */}
+    <div>
       <img
         src={weddingCuratorLogo}
         alt="The Wedding Curator"
-        className="mb-4 w-40 md:w-52"
+        className="mb-4 w-44 md:w-56"
       />
 
-      <p className="text-xl text-[#3e2f25] font-medium mb-2">
+      <p className="text-lg text-[#5e4b3c] mb-2">
         Curating refined, calm wedding experiences.
       </p>
 
-      <p className="text-sm text-[#8f7558]">
+      <p className="text-sm text-[#b09a7c]">
         Ottawa, Ontario
       </p>
     </div>
 
-    <div className="text-left md:text-right">
-      <p className="text-sm text-[#5e4b3c] mb-2">
+    {/* RIGHT SIDE */}
+    <div className="md:text-right">
+      <p className="text-sm text-[#b09a7c] mb-2">
         Let’s begin your wedding journey
       </p>
 
-      <a
-        href="mailto:hello@theweddingcurator.ca"
-        className="text-lg text-[#3e2f25] font-medium hover:underline"
-      >
+      <p className="text-lg text-[#5e4b3c] font-medium">
         hello@theweddingcurator.ca
-      </a>
-<div className="flex md:justify-end gap-5 mt-4">
-
-  {/* Instagram */}
-  <a
-    href="https://www.instagram.com/theweddingcurator.ca"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-[#5e4b3c] hover:text-[#3e2f25] transition transform hover:scale-110"
-  >
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-      <rect x="3" y="3" width="18" height="18" rx="5"></rect>
-      <circle cx="12" cy="12" r="4"></circle>
-      <circle cx="17" cy="7" r="1.2"></circle>
-    </svg>
-  </a>
-
-  {/* Facebook */}
-  <a
-    href="https://www.facebook.com/profile.php?id=61585919682642"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-[#5e4b3c] hover:text-[#3e2f25] transition transform hover:scale-110"
-  >
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-      <path d="M15 3h-2a4 4 0 0 0-4 4v2H7v3h2v9h3v-9h2.5l.5-3H12V7a1 1 0 0 1 1-1h2z"></path>
-    </svg>
-  </a>
-
-</div>
-      <p className="text-xs text-[#b09a7c] mt-6">
-        © {new Date().getFullYear()} The Wedding Curator
       </p>
+
+      {/* SOCIAL ICONS */}
+      <div className="flex md:justify-end items-center gap-5 mt-4">
+
+        {/* Instagram */}
+        <a
+          href="https://instagram.com/theweddingcurator.ca"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#5e4b3c] hover:text-[#c9a96e] transition"
+        >
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M7.75 2h8.5C19.99 2 22 4.01 22 7.75v8.5C22 19.99 19.99 22 16.25 22h-8.5C4.01 22 2 19.99 2 16.25v-8.5C2 4.01 4.01 2 7.75 2zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5zm4.25 3.25a4.75 4.75 0 1 1 0 9.5 4.75 4.75 0 0 1 0-9.5zm0 2a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5zm5.25-.88a1.13 1.13 0 1 1 0 2.25 1.13 1.13 0 0 1 0-2.25z"/>
+          </svg>
+        </a>
+
+        {/* Facebook */}
+        <a
+          href="https://www.facebook.com/profile.php?id=61585919682642"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#5e4b3c] hover:text-[#c9a96e] transition"
+        >
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M22 12a10 10 0 1 0-11.5 9.87v-6.98H7.9V12h2.6V9.8c0-2.57 1.53-4 3.87-4 1.12 0 2.3.2 2.3.2v2.52h-1.3c-1.28 0-1.68.8-1.68 1.62V12h2.85l-.46 2.89h-2.39v6.98A10 10 0 0 0 22 12z"/>
+          </svg>
+        </a>
+
+      </div>
     </div>
 
+  </div>
+
+  {/* BOTTOM COPYRIGHT */}
+  <div className="text-center text-sm text-[#b09a7c] mt-10 pb-6">
+    © 2026 The Wedding Curator. All rights reserved.
   </div>
 </footer>
       
