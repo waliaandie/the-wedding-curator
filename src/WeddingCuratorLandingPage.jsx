@@ -280,7 +280,7 @@ export default function WeddingCuratorLandingPage() {
 
   {/* Facebook */}
   <a
-    href="https://www.facebook.com/yourpage"
+    href="https://www.facebook.com/profile.php?id=61585919682642"
     target="_blank"
     rel="noopener noreferrer"
     className="text-[#5e4b3c] hover:text-[#3e2f25] transition transform hover:scale-110"
