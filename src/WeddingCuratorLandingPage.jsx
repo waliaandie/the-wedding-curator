@@ -236,7 +236,7 @@ export default function WeddingCuratorLandingPage() {
   <img
     src={weddingCuratorLogo}
     alt="The Wedding Curator"
-    className="mx-auto mb-6 w-56 opacity-100"
+    className="mx-auto mb-6 w-72 opacity-100"
   />
 
   <p className="text-xl text-[#3e2f25] font-medium mb-2">
