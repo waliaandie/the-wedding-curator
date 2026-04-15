@@ -79,9 +79,9 @@ export default function WeddingCuratorLandingPage() {
     href="https://www.facebook.com/profile.php?id=61585919682642"
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-block bg-[#c5a46d] text-white px-6 py-3 rounded-full text-sm tracking-wide hover:opacity-90 transition"
+    className="inline-block bg-[#c5a46d] text-white px-8 py-4 rounded-full text-sm tracking-widest uppercase hover:opacity-90 transition shadow-md"
   >
-    Start Your Wedding Planning
+    Begin Your Wedding Experience
   </a>
 </div>
 
