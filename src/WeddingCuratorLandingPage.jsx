@@ -235,11 +235,11 @@ export default function WeddingCuratorLandingPage() {
 <footer className="mt-10 border-t border-[#eadfce] bg-[#fbf6ef] py-8 px-6">
   <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
 
-    <div className="text-left">
+    <div className="text-left flex flex-col justify-center">
       <img
         src={weddingCuratorLogo}
         alt="The Wedding Curator"
-        className="mb-4 w-28 md:w-36"
+        className="mb-4 w-40 md:w-52"
       />
 
       <p className="text-xl text-[#3e2f25] font-medium mb-2">
