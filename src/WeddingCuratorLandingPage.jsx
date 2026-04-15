@@ -51,11 +51,11 @@ export default function WeddingCuratorLandingPage() {
       <section className="border-b border-[#e7d9c7] bg-gradient-to-b from-[#f6efe6] via-[#f8f3ed] to-[#fbf8f4]">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 md:grid-cols-2 md:px-10">
           <div>
-            <div className="mb-8">
+            <div className="mb-4">
               <img
                 src={weddingCuratorLogo}
                 alt="The Wedding Curator logo"
-                className="h-56 md:h-72 w-auto object-contain mb-8"
+                className="h-64 md:h-80 w-auto object-contain"
               />
             </div>
 
