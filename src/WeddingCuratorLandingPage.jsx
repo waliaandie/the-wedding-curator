@@ -227,10 +227,18 @@ export default function WeddingCuratorLandingPage() {
           </form>
         </div>
       </section>
-
-      {/* FOOTER */}
       
-{/* FOOTER */}
+<div className="bg-[#2f2118] text-white py-10 text-center">
+  <p className="text-lg mb-3">
+    Limited dates remaining for 2026 weddings
+  </p>
+  <button className="bg-[#c9a96e] text-[#2f2118] px-6 py-3 rounded-full font-medium hover:opacity-90 transition">
+    Request Your Date
+  </button>
+</div>
+      
+      
+
 {/* FOOTER */}
 <footer className="mt-32 pt-16 pb-8 border-t border-[#eadfce] bg-[#fbf6ef]">
   <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
