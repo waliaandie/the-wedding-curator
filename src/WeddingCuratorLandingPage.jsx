@@ -229,26 +229,34 @@ export default function WeddingCuratorLandingPage() {
       </section>
 
       {/* FOOTER */}
-      <footer className="mt-24 pt-12 border-t border-[#eadfce] bg-[#fbf6ef] text-center">
+      
+<footer className="mt-12 pt-10 border-t border-[#eadfce] bg-[#fbf6ef] text-center">
+  <div className="w-16 h-[1px] bg-[#d6c2a8] mx-auto mb-6"></div>
 
   <img
     src={weddingCuratorLogo}
     alt="The Wedding Curator"
-    className="mx-auto mb-8 w-72 opacity-100"
+    className="mx-auto mb-6 w-56 opacity-100"
   />
 
-  <p className="text-lg text-[#5e4b3c] mb-2">
+  <p className="text-xl text-[#3e2f25] font-medium mb-2">
     Curating refined, calm wedding experiences.
   </p>
 
-  <p className="text-sm text-[#8f7558] mb-1">
+  <a
+    href="mailto:hello@theweddingcurator.ca"
+    className="text-sm text-[#8f7558] mb-1 hover:underline block"
+  >
     hello@theweddingcurator.ca
-  </p>
+  </a>
 
-  <p className="text-sm text-[#b09a7c] pb-10">
+  <p className="text-sm text-[#b09a7c]">
     Ottawa, Ontario
   </p>
 
+  <p className="text-xs text-[#b09a7c] mt-6 pb-10">
+    © {new Date().getFullYear()} The Wedding Curator. All rights reserved.
+  </p>
 </footer>
       
     </div>
