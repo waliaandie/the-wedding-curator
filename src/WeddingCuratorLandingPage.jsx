@@ -48,6 +48,7 @@ export default function WeddingCuratorLandingPage() {
   return (
     <div className="min-h-screen bg-[#f7f2eb] text-[#2f241d]">
       {/* HERO */}
+            {/* HERO */}
       <section className="border-b border-[#e7d9c7] bg-gradient-to-b from-[#f6efe6] via-[#f8f3ed] to-[#fbf8f4]">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 md:grid-cols-2 md:px-10">
           <div>
@@ -74,22 +75,22 @@ export default function WeddingCuratorLandingPage() {
             <p className="mt-4 text-base text-[#6d5544] leading-7 max-w-xl">
               The Wedding Curator is built for couples who want a calm, luxury experience — where every detail is handled, and your only role is to show up and experience your day. We believe in meeting properly, understanding your vision in person, and then coordinating everything with precision.
             </p>
+
             <div className="mt-6">
-  <a
-    href="https://www.facebook.com/profile.php?id=61585919682642"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block bg-[#c5a46d] text-white px-8 py-4 rounded-full text-sm tracking-widest uppercase hover:opacity-90 transition shadow-md"
-  >
-    Begin Your Wedding Experience
-  </a>
-</div>
+              <a
+                href="https://www.facebook.com/profile.php?id=61585919682642"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#c5a46d] text-white px-8 py-4 rounded-full text-sm tracking-widest uppercase hover:opacity-90 transition shadow-md"
+              >
+                Begin Your Wedding Experience
+              </a>
+            </div>
 
             <p className="mt-4 text-base text-[#6d5544] leading-7 max-w-xl">
               This is not based on endless phone calls or back-and-forth video meetings. We prefer to meet in person, understand your expectations clearly, and build the execution around what you actually want.
             </p>
-
-            
+          </div>
 
           {/* HERO IMAGE */}
           <div className="rounded-[2rem] overflow-hidden h-[400px] shadow-lg">
@@ -99,42 +100,6 @@ export default function WeddingCuratorLandingPage() {
               className="rounded-2xl w-full h-[420px] md:h-[520px] object-cover"
             />
           </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-6 pt-16 md:px-10">
-        <div className="rounded-[2rem] border border-[#eadfce] bg-white px-8 py-10 shadow-sm">
-          <p className="text-sm uppercase tracking-[0.3em] text-[#8f7558]">Who this is for</p>
-          <div className="mt-6 grid gap-4 md:grid-cols-3">
-            <div className="rounded-[1.5rem] bg-[#f8f3ed] px-5 py-5 text-[#5f4a3a]">For couples who want hospitality, structure, and someone dependable handling the flow.</div>
-            <div className="rounded-[1.5rem] bg-[#f8f3ed] px-5 py-5 text-[#5f4a3a]">For those who do not want to chase vendors, timelines, family movement, or on-day coordination.</div>
-            <div className="rounded-[1.5rem] bg-[#f8f3ed] px-5 py-5 text-[#5f4a3a]">For weddings that deserve a personal, in-person approach rather than generic planning.</div>
-          </div>
-        </div>
-      </section>
-
-      <section id="services" className="mx-auto max-w-7xl px-6 py-20 md:px-10">
-        <h2 className="font-serif text-4xl mb-10">
-          Services built around hospitality, structure, and personal attention
-        </h2>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          {services.map((s) => (
-            <div key={s.title} className="bg-white p-7 rounded-[2rem] shadow-sm border">
-              <h3 className="font-serif text-2xl">{s.title}</h3>
-              <p className="mt-4 text-[#5f4a3a]">{s.description}</p>
-
-              <div className="mt-6 space-y-2">
-                {s.bullets.map((b) => (
-                  <div key={b} className="text-sm bg-[#f7f1e8] px-4 py-2 rounded-full">
-                    {b}
-                  </div>
-                ))}
-              </div>
-
-              <p className="mt-6 text-sm font-semibold uppercase tracking-[0.18em] text-[#8f7558]">{s.price}</p>
-            </div>
-          ))}
         </div>
       </section>
 
