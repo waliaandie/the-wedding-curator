@@ -1,6 +1,6 @@
 import React from "react";
 
-const weddingCuratorLogo = "/TWC-logo.jpeg";
+const weddingCuratorLogo = "/TWC-logo.png";
 
 export default function WeddingCuratorLandingPage() {
   const services = [
