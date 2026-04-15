@@ -231,18 +231,18 @@ export default function WeddingCuratorLandingPage() {
       {/* FOOTER */}
       
 {/* FOOTER */}
-<footer className="mt-12 border-t border-[#eadfce] bg-[#fbf6ef] py-10 px-6">
+{/* FOOTER */}
+<footer className="mt-10 border-t border-[#eadfce] bg-[#fbf6ef] py-8 px-6">
   <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
 
-    {/* LEFT SIDE */}
     <div className="text-left">
       <img
         src={weddingCuratorLogo}
         alt="The Wedding Curator"
-        className="mb-4 w-40"
+        className="mb-4 w-28 md:w-36"
       />
 
-      <p className="text-lg text-[#3e2f25] font-medium mb-2">
+      <p className="text-xl text-[#3e2f25] font-medium mb-2">
         Curating refined, calm wedding experiences.
       </p>
 
@@ -251,7 +251,6 @@ export default function WeddingCuratorLandingPage() {
       </p>
     </div>
 
-    {/* RIGHT SIDE */}
     <div className="text-left md:text-right">
       <p className="text-sm text-[#5e4b3c] mb-2">
         Let’s begin your wedding journey
@@ -259,7 +258,7 @@ export default function WeddingCuratorLandingPage() {
 
       <a
         href="mailto:hello@theweddingcurator.ca"
-        className="text-[#3e2f25] font-medium hover:underline"
+        className="text-lg text-[#3e2f25] font-medium hover:underline"
       >
         hello@theweddingcurator.ca
       </a>
