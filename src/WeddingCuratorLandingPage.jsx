@@ -16,7 +16,7 @@ export default function WeddingCuratorLandingPage() {
       price: "Tailored after consultation",
     },
     {
-      title: "Month-of / Partial Planning",
+      title: "Month-of / Partial ",
       description:
         "You’ve started planning — we step in to refine, organize, and structure everything so your wedding runs exactly as it should.",
       bullets: [
