@@ -55,7 +55,7 @@ export default function WeddingCuratorLandingPage() {
               <img
                 src={weddingCuratorLogo}
                 alt="The Wedding Curator logo"
-                className="h-48 md:h-60 w-auto object-contain"
+                className="h-56 md:h-72 w-auto object-contain mb-8"
               />
             </div>
 
