@@ -228,14 +228,7 @@ export default function WeddingCuratorLandingPage() {
         </div>
       </section>
       
-<div className="bg-[#2f2118] text-white py-10 text-center">
-  <p className="text-lg mb-3">
-    Limited dates remaining for 2026 weddings
-  </p>
-  <button className="bg-[#c9a96e] text-[#2f2118] px-6 py-3 rounded-full font-medium hover:opacity-90 transition">
-    Request Your Date
-  </button>
-</div>
+
       
       
 
