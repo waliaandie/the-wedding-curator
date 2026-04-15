@@ -89,15 +89,7 @@ export default function WeddingCuratorLandingPage() {
               This is not based on endless phone calls or back-and-forth video meetings. We prefer to meet in person, understand your expectations clearly, and build the execution around what you actually want.
             </p>
 
-            <div className="mt-8 flex gap-4">
-              <a href="#contact" className="bg-[#2f241d] text-white px-6 py-3 rounded-full">
-                Start Planning
-              </a>
-              <a href="#services" className="border border-[#b89a7b] px-6 py-3 rounded-full">
-                View Services
-              </a>
-            </div>
-          </div>
+            
 
           {/* HERO IMAGE */}
           <div className="rounded-[2rem] overflow-hidden h-[400px] shadow-lg">
