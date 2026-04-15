@@ -232,7 +232,7 @@ export default function WeddingCuratorLandingPage() {
       
       
 
-<footer className="mt-24 pt-16 border-t border-[#eadfce] bg-[#fbf6ef]">
+<footer className="mt-16 pt-12 border-t border-[#eadfce] bg-[#fbf6ef]">
   
   <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
@@ -244,7 +244,7 @@ export default function WeddingCuratorLandingPage() {
         className="h-64 md:h-80 w-auto object-contain"
       />
 
-      <p className="text-lg text-[#5e4b3c] mb-2">
+      <p className="text-base text-[#5e4b3c] mb-2">
         Curating refined, calm wedding experiences.
       </p>
 
