@@ -231,7 +231,8 @@ export default function WeddingCuratorLandingPage() {
       {/* FOOTER */}
       
 {/* FOOTER */}
-<footer className="mt-24 pt-12 border-t border-[#eadfce] bg-[#fbf6ef]">
+{/* FOOTER */}
+<footer className="mt-32 pt-16 pb-8 border-t border-[#eadfce] bg-[#fbf6ef]">
   <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
     {/* LEFT SIDE */}
@@ -239,7 +240,7 @@ export default function WeddingCuratorLandingPage() {
       <img
         src={weddingCuratorLogo}
         alt="The Wedding Curator"
-        className="mb-4 w-44 md:w-56"
+        className="mb-6 w-52 md:w-64"
       />
 
       <p className="text-lg text-[#5e4b3c] mb-2">
@@ -269,7 +270,7 @@ export default function WeddingCuratorLandingPage() {
           href="https://instagram.com/theweddingcurator.ca"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#5e4b3c] hover:text-[#c9a96e] transition"
+          className="text-[#8f7558] hover:text-[#c9a96e] transition"
         >
           <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
             <path d="M7.75 2h8.5C19.99 2 22 4.01 22 7.75v8.5C22 19.99 19.99 22 16.25 22h-8.5C4.01 22 2 19.99 2 16.25v-8.5C2 4.01 4.01 2 7.75 2zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5zm4.25 3.25a4.75 4.75 0 1 1 0 9.5 4.75 4.75 0 0 1 0-9.5zm0 2a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5zm5.25-.88a1.13 1.13 0 1 1 0 2.25 1.13 1.13 0 0 1 0-2.25z"/>
@@ -281,7 +282,7 @@ export default function WeddingCuratorLandingPage() {
           href="https://www.facebook.com/profile.php?id=61585919682642"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#5e4b3c] hover:text-[#c9a96e] transition"
+          className="text-[#8f7558] hover:text-[#c9a96e] transition"
         >
           <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
             <path d="M22 12a10 10 0 1 0-11.5 9.87v-6.98H7.9V12h2.6V9.8c0-2.57 1.53-4 3.87-4 1.12 0 2.3.2 2.3.2v2.52h-1.3c-1.28 0-1.68.8-1.68 1.62V12h2.85l-.46 2.89h-2.39v6.98A10 10 0 0 0 22 12z"/>
@@ -293,8 +294,8 @@ export default function WeddingCuratorLandingPage() {
 
   </div>
 
-  {/* BOTTOM COPYRIGHT */}
-  <div className="text-center text-sm text-[#b09a7c] mt-10 pb-6">
+  {/* COPYRIGHT */}
+  <div className="text-center text-sm text-[#b09a7c] mt-12">
     © 2026 The Wedding Curator. All rights reserved.
   </div>
 </footer>
