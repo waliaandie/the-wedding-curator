@@ -212,7 +212,12 @@ export default function WeddingCuratorLandingPage() {
           >
             <input placeholder="Full Name" className="w-full mb-4 p-3 border rounded-xl" required />
             <input type="email" placeholder="Email" className="w-full mb-4 p-3 border rounded-xl" required />
-            <input placeholder="Event Date" className="w-full mb-4 p-3 border rounded-xl" required />
+            <input
+  type="date"
+  className="w-full mb-4 p-3 border rounded-xl"
+  min={new Date().toISOString().split("T")[0]}
+  required
+/>
             <input placeholder="Guest Count" className="w-full mb-4 p-3 border rounded-xl" required />
             <textarea placeholder="Tell us about your wedding" className="w-full mb-4 p-3 border rounded-xl" required />
 
