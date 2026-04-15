@@ -92,9 +92,9 @@ export default function WeddingCuratorLandingPage() {
           {/* HERO IMAGE */}
           <div className="rounded-[2rem] overflow-hidden h-[400px] shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=1200&auto=format&fit=crop"
-              alt="South Asian Wedding Couple"
-              className="w-full h-full object-cover"
+              src="/hero.png"
+              alt="Wedding Couple"
+              className="rounded-2xl w-full h-[420px] md:h-[520px] object-cover"
             />
           </div>
         </div>
