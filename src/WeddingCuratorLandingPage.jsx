@@ -180,13 +180,14 @@ export default function WeddingCuratorLandingPage() {
               e.preventDefault();
               const form = e.target;
 
-              const data = {
-                name: form[0].value,
-                email: form[1].value,
-                date: form[2].value,
-                guests: form[3].value,
-                details: form[4].value,
-              };
+             const data = {
+  _subject: "New Wedding Inquiry",
+  name: form[0].value,
+  email: form[1].value,
+  date: form[2].value,
+  guests: form[3].value,
+  details: form[4].value,
+};
 
               try {
                 const res = await fetch("https://formspree.io/f/mlgadkqk", {
