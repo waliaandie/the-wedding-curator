@@ -230,33 +230,46 @@ export default function WeddingCuratorLandingPage() {
 
       {/* FOOTER */}
       
-<footer className="mt-12 pt-10 border-t border-[#eadfce] bg-[#fbf6ef] text-center">
-  <div className="w-16 h-[1px] bg-[#d6c2a8] mx-auto mb-6"></div>
+{/* FOOTER */}
+<footer className="mt-12 border-t border-[#eadfce] bg-[#fbf6ef] py-10 px-6">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
 
-  <img
-    src={weddingCuratorLogo}
-    alt="The Wedding Curator"
-    className="mx-auto mb-6 w-72 opacity-100"
-  />
+    {/* LEFT SIDE */}
+    <div className="text-left">
+      <img
+        src={weddingCuratorLogo}
+        alt="The Wedding Curator"
+        className="mb-4 w-40"
+      />
 
-  <p className="text-xl text-[#3e2f25] font-medium mb-2">
-    Curating refined, calm wedding experiences.
-  </p>
+      <p className="text-lg text-[#3e2f25] font-medium mb-2">
+        Curating refined, calm wedding experiences.
+      </p>
 
-  <a
-    href="mailto:hello@theweddingcurator.ca"
-    className="text-sm text-[#8f7558] mb-1 hover:underline block"
-  >
-    hello@theweddingcurator.ca
-  </a>
+      <p className="text-sm text-[#8f7558]">
+        Ottawa, Ontario
+      </p>
+    </div>
 
-  <p className="text-sm text-[#b09a7c]">
-    Ottawa, Ontario
-  </p>
+    {/* RIGHT SIDE */}
+    <div className="text-left md:text-right">
+      <p className="text-sm text-[#5e4b3c] mb-2">
+        Let’s begin your wedding journey
+      </p>
 
-  <p className="text-xs text-[#b09a7c] mt-6 pb-10">
-    © {new Date().getFullYear()} The Wedding Curator. All rights reserved.
-  </p>
+      <a
+        href="mailto:hello@theweddingcurator.ca"
+        className="text-[#3e2f25] font-medium hover:underline"
+      >
+        hello@theweddingcurator.ca
+      </a>
+
+      <p className="text-xs text-[#b09a7c] mt-6">
+        © {new Date().getFullYear()} The Wedding Curator
+      </p>
+    </div>
+
+  </div>
 </footer>
       
     </div>
